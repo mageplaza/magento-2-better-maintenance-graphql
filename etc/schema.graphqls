@@ -14,7 +14,7 @@ type GeneralConfig {
   redirect_to: String @doc(description: "Redirect To")
   auto_switch: String @doc(description: "Auto Switch")
   end_time: String @doc(description: "End Time")
-  whitelist_ip: String @doc(description: "Whitelist Ip")
+  whitelist_ip: [String] @doc(description: "Whitelist Ip")
 }
 
 type DisplaySetting {
