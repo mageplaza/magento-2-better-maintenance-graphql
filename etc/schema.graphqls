@@ -29,6 +29,7 @@ type ClockSetting {
   clock_template: String @doc(description: "Clock Template")
   clock_background_color: String @doc(description: "Clock Background Color")
   clock_number_color: String @doc(description: "Clock Number Color")
+    clock_inner_color: String @doc(description: "Clock Inner Color")
 }
 
 type SubscribeSetting {
