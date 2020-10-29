@@ -14,7 +14,8 @@ type GeneralConfig {
   redirect_to: String @doc(description: "Redirect To")
   auto_switch: String @doc(description: "Auto Switch")
   end_time: String @doc(description: "End Time")
-  whitelist_ip: [String] @doc(description: "Whitelist Ip")
+  whitelist_ip: String @doc(description: "Whitelist Ip")
+  whitelist_page: [String] @doc(description: "Whitelist Page")
 }
 
 type DisplaySetting {
@@ -29,7 +30,7 @@ type ClockSetting {
   clock_template: String @doc(description: "Clock Template")
   clock_background_color: String @doc(description: "Clock Background Color")
   clock_number_color: String @doc(description: "Clock Number Color")
-    clock_inner_color: String @doc(description: "Clock Inner Color")
+  clock_inner_color: String @doc(description: "Clock Inner Color")
 }
 
 type SubscribeSetting {
