@@ -12,7 +12,7 @@ type MaintenanceConfig {
 type GeneralConfig {
   enabled: Boolean @doc(description: "Enabled")
   redirect_to: String @doc(description: "Redirect To")
-  auto_switch: String @doc(description: "Auto Switch")
+  auto_switch: Boolean @doc(description: "Auto Switch")
   end_time: String @doc(description: "End Time")
   whitelist_ip: String @doc(description: "Whitelist Ip")
   whitelist_page: [String] @doc(description: "Whitelist Page")
